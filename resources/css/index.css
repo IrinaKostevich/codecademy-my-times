@@ -5,7 +5,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     border-bottom: 1px solid black;
+    background-color: white;
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
@@ -39,6 +43,8 @@ aside {
 
 .content {
     display: flex;
+    position: relative;
+    top: 116px;
     margin: 0 auto 78px auto;
     width: 1232px;
     font-family: Georgia;
