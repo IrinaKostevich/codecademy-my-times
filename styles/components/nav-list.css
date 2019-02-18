@@ -3,8 +3,8 @@
     flex-wrap: nowrap;
 }
 
-.nav-list .nav-list-item + .nav-list-item {
-    margin-left: 16px;
+.nav-list-item {
+    padding: 0 10px;
 }
 
 .nav-list a {

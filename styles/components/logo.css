@@ -4,8 +4,13 @@
     align-items: center;
 }
 
+.logo img {
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+  }
+
 .logo-caption {
-    padding: 0 10px;
     white-space: nowrap;
     font-family: Verdana;
     font-size: 14px;

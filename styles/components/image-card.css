@@ -10,6 +10,7 @@
 }
 
 .image-card--main {
+    padding: 0 20px;
     font-size: 40px;
     text-align: start;
 }
