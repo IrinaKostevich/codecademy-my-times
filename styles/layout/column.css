@@ -1,6 +1,7 @@
 .l-column {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     margin-right: 32px;
 }
 
