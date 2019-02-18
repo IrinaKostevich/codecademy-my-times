@@ -1,5 +1,6 @@
-.side-menu {
-    background-color: WhiteSmoke;
+.side-image {
+    height: 240px;
+    width: 240px;;
 }
 
 .side-header {
@@ -10,12 +11,17 @@
     text-align: center;
 }
 
-.side-menu-item {
+.side-menu {
     display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    border-bottom: 1px solid black;
+    flex-direction: column;
+    background-color: WhiteSmoke;
+    color: DimGray;
     font-family: Verdana;
     font-size: 12px;
-    color: DimGray;
+    line-height: 1.2em;
+}
+
+.side-menu-item {
+    padding: 12px 20px;
+    border-bottom: 1px solid black;
 }
