@@ -1,0 +1,21 @@
+.nav-list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-list .nav-list-item + .nav-list-item {
+    margin-left: 16px;
+}
+
+.nav-list a {
+    color: black;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-list--footer a {
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+}

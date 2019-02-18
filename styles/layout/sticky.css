@@ -1,0 +1,9 @@
+.l-sticky {
+    position: sticky;
+    top: 0;
+}
+
+.l-sticky--btm {
+    top: auto;
+    bottom: 0;
+}

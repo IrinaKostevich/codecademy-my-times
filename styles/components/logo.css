@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    color: MediumAquamarine;
+    align-items: center;
+}
+
+.logo-caption {
+    padding: 0 10px;
+    white-space: nowrap;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
