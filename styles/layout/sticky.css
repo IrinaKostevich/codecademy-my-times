@@ -1,5 +1,6 @@
 .l-sticky {
     position: sticky;
+    position: -webkit-sticky; 
     top: 0;
 }
 
