@@ -1,4 +1,5 @@
 .l-cell {
-    width: 1232px;
+    max-width: 1232px;
     margin: 0 auto;
+    overflow: auto;
 }

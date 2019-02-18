@@ -4,11 +4,11 @@
     margin-right: 32px;
 }
 
-.l-column--sub {
+.l-column .l-column--sub {
     display: flex;
     flex-direction: row;
 }
 
-.l-column--large { min-width: 630px; }
-.l-column--medium { min-width: 300px; }
-.l-column--small { min-width: 240px; }
+.l-column.l-column--large { width: 630px; }
+.l-column.l-column--medium { width: 300px; }
+.l-column.l-column--small { width: 240px; }

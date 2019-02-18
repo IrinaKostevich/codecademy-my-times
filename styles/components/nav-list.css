@@ -3,7 +3,7 @@
     flex-wrap: nowrap;
 }
 
-.nav-list-item {
+.nav-list .nav-list-item {
     padding: 0 10px;
 }
 
@@ -14,7 +14,7 @@
     font-weight: bold;
 }
 
-.nav-list--footer a {
+.nav-list.nav-list--scnd a {
     font-family: Verdana;
     font-size: 12px;
     font-weight: normal;

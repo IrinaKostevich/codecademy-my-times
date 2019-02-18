@@ -2,13 +2,31 @@
     font-family: Georgia;
 }
 
-.article-header {
+.article .article-image {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.article .article-image.article-image--main {
+    padding: 0 20px;
+    font-size: 40px;
+    text-align: start;
+}
+
+.article .article-header {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.2em;
 }
 
-.article-content {
+.article .article-content {
     padding: 16px 0;
     font-size: 17px;
     line-height: 1.2em;

@@ -4,22 +4,23 @@
     justify-content: center;
     align-items: center;
     height: 325px;
-    background-color: MediumAquamarine;
     margin: auto;
+    background-color: MediumAquamarine;
     font-family: Verdana;
     font-size: 12px;
 }
 
-.footer-info {
+.footer .footer-info {
     display: flex;
+    align-items: center;
     padding: 20px;
 }
 
-.footer-info .nav-list{
-    padding-left: 25px;
+.footer .footer-info .footer-nav-list {
+    margin-left: 25px;
 }
 
-.footer-info-title {
+.footer .footer-info .footer-info-title {
     padding-right: 25px;
     border-right: 2px solid white;
     font-family: Georgia;
